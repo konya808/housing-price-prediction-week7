@@ -536,7 +536,7 @@ if predict:
             response = requests.post(
                 api_url,
                 json=payload,
-                timeout=30,
+                timeout=90,
             )
 
             result = response.json()
